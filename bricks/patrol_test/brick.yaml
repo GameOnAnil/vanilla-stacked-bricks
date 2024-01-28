@@ -1,0 +1,14 @@
+name: patrol_test
+description: Template for integration test
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.50 <0.1.0"
+
+vars:
+  modulename:
+    type: string
+    description: modulename
+    default: widget
+    prompt: modulename?

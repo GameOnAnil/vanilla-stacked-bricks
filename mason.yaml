@@ -4,11 +4,5 @@ bricks:
   view:
     path: ./bricks/view
 
-  service:
-    path: ./bricks/service
-
-  childview:
-    path: ./bricks/childview
-
-  integration_test:
-    path: ./bricks/integration_test
+  patrol_test:
+    path: ./bricks/patrol_test
