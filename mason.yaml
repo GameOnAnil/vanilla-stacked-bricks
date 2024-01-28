@@ -1,0 +1,14 @@
+# Register bricks which can be consumed via the Mason CLI.
+# https://github.com/felangel/mason
+bricks:
+  view:
+    path: ./bricks/view
+
+  service:
+    path: ./bricks/service
+
+  childview:
+    path: ./bricks/childview
+
+  integration_test:
+    path: ./bricks/integration_test
