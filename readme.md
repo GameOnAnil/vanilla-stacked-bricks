@@ -66,3 +66,39 @@ login_feature
  ┃ ┃ ┃ ┗ login_viewmodel.dart
  ┃ ┃ ┗ login_view.dart
 ```
+
+# Integration Test Brick
+Mason Brick to create a template for integration test
+
+1. Activate view bricks
+- Using `mason add` command
+```sh
+mason add view
+  --git-url https://github.com/GameOnAnil/vanilla-stacked-bricks.git
+  --git-path bricks/integration_test
+```
+
+- Add directly to `mason.yaml`
+```yaml
+bricks:
+  view:
+    git:
+      url: 'https://github.com/GameOnAnil/vanilla-stacked-bricks.git'
+      path: 'bricks/integration_test'
+```
+
+## Variables for the Command Line ✨
+| Variable      | Description                                                | Type     |
+| ------------- | ---------------------------------------------------------- | -------- |
+| `modulename`  | The name of feature / module this integration test belongs to         | String   |
+
+## Generate File Structure
+```
+integration_test
+ ┗ sample
+ ┃ ┣ common
+ ┃ ┃ ┗ sample_common.dart
+ ┃ ┣ finders
+ ┃ ┃ ┗ sample_finders.dart
+ ┃ ┗ sample_test.dart
+```
