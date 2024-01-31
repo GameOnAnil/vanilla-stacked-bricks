@@ -1,6 +1,5 @@
 import 'view_model/{{filename.lowerCase()}}_viewmodel.dart';
 import 'package:flutter/material.dart';
-import 'package:mmp/base/base.dart';
 
 
 class {{filename.pascalCase()}}View extends BaseStackedView<{{filename.pascalCase()}}ViewModel> {
