@@ -10,14 +10,59 @@ This repository contains Mason bricks for clean architecture projects. It includ
 - **Services**: Description about what the services do.
 - **Network**: Description about what the network components do.
 
-## Getting Started
+# View Brick
+Mason Brick to create a new view in already existing feature or a as a new feature.
 
-Instructions on how to use your project or install it.
+## Setup Brick 🚀
+1. Install [mason_cli](https://pub.dev/packages/mason_cli):
+```sh
+dart pub global activate mason_cli
+```
 
-## Contributing
+2. Activate view bricks
+- Using `mason add` command
+```sh
+mason add view
+  --git-url https://github.com/GameOnAnil/vanilla-stacked-bricks.git
+  --git-path bricks/view
+```
 
-Information about how other developers can contribute to the project.
+- Add directly to `mason.yaml`
+```yaml
+bricks:
+  view:
+    git:
+      url: 'https://github.com/GameOnAnil/vanilla-stacked-bricks.git'
+      path: 'bricks/view'
+```
 
-## License
+## How to use 🚀
+### Command Line
 
-Information about the license.
+```
+mason make view
+```
+
+The you will get prompt
+```sh
+modulename?
+```
+```sh
+filename?
+```
+
+## Variables for the Command Line ✨
+| Variable      | Description                                                | Type     |
+| ------------- | ---------------------------------------------------------- | -------- |
+| `modulename`  | The name of feature / module this view belongs to          | String   |
+| `filename`    | Name of the view                                           | String   |
+
+## Generate File Structure
+```
+login_feature
+ ┗ views
+ ┃ ┗ login
+ ┃ ┃ ┣ view_model
+ ┃ ┃ ┃ ┗ login_viewmodel.dart
+ ┃ ┃ ┗ login_view.dart
+```
