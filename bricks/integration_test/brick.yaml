@@ -1,4 +1,4 @@
-name: patrol_test
+name: integration_test
 description: Template for integration test
 
 version: 0.1.0+1
