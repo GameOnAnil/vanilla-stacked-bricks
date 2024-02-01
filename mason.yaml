@@ -4,5 +4,5 @@ bricks:
   view:
     path: ./bricks/view
 
-  integration_test:
-    path: ./bricks/integration_test
+  automation_test:
+    path: ./bricks/automation_test

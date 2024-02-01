@@ -6,6 +6,8 @@ version: 0.1.0+1
 environment:
   mason: ">=0.1.0-dev.50 <0.1.0"
 
+repository: https://github.com/GameOnAnil/vanilla-stacked-bricks
+
 vars:
   modulename:
     type: string
