@@ -1,4 +1,4 @@
-# View Brick
+# Automation test Brick
 Mason Brick to create a template for integration test
 
 ## Setup Brick 🚀
@@ -10,13 +10,13 @@ dart pub global activate mason_cli
 2. Activate view bricks
 - From brickhub
 ```sh
-mason add integration_test
+mason add automation_test
 ```
 - Using `mason add` command
 ```sh
 mason add view
   --git-url https://github.com/GameOnAnil/vanilla-stacked-bricks.git
-  --git-path bricks/integration_test
+  --git-path bricks/automation_test
 ```
 
 - Add directly to `mason.yaml`
@@ -25,7 +25,7 @@ bricks:
   view:
     git:
       url: 'https://github.com/GameOnAnil/vanilla-stacked-bricks.git'
-      path: 'bricks/integration_test'
+      path: 'bricks/automation_test'
 ```
 
 ## How to use 🚀
