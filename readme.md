@@ -2,13 +2,9 @@
 
 This repository contains Mason bricks for clean architecture projects. It includes modules, views, integration tests, services, network components, and more.
 
-## Contents
-
-- **Module**: Description about what the module does.
-- **Views**: Description about what the views do.
-- **Integration Tests**: Description about what the integration tests do.
-- **Services**: Description about what the services do.
-- **Network**: Description about what the network components do.
+# Table of Contents
+- [View Brick](#view-brick)
+- [Integration Test Brick](#integration-test-brick)
 
 # View Brick
 Mason Brick to create a new view in already existing feature or a as a new feature.

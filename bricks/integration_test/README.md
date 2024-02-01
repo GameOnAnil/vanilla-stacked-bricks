@@ -8,6 +8,10 @@ dart pub global activate mason_cli
 ```
 
 2. Activate view bricks
+- From brickhub
+```sh
+mason add integration_test
+```
 - Using `mason add` command
 ```sh
 mason add view
