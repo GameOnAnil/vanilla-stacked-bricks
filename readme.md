@@ -2,6 +2,10 @@
 
 This repository contains Mason bricks for clean architecture projects. It includes modules, views, integration tests, services, network components, and more.
 
+![Mason Demo][mason_demo]
+
+[mason_demo]: https://raw.githubusercontent.com/gameonanil/vanilla-stacked-bricks/main/assets/view-demo.gif
+
 # Table of Contents
 - [View Brick](#view-brick)
 - [Integration Test Brick](#integration-test-brick)
@@ -37,8 +41,6 @@ bricks:
 ### Command Line
 
 ![Mason Demo][mason_demo]
-
-[mason_demo]: https://raw.githubusercontent.com/gameonanil/vanilla-stacked-bricks/main/assets/view-demo.gif
 
 ```
 mason make view
