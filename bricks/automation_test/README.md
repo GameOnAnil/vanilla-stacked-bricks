@@ -14,9 +14,7 @@ mason add automation_test
 ```
 - Using `mason add` command
 ```sh
-mason add view
-  --git-url https://github.com/GameOnAnil/vanilla-stacked-bricks.git
-  --git-path bricks/automation_test
+mason add automation_test --git-url "https://github.com/GameOnAnil/vanilla-stacked-bricks.git" --git-path "bricks/automation_test"
 ```
 
 - Add directly to `mason.yaml`
@@ -32,7 +30,7 @@ bricks:
 ### Command Line
 
 ```
-mason make view
+mason make automation_test
 ```
 
 The you will get prompt
