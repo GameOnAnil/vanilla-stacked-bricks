@@ -5,6 +5,7 @@ This repository contains Mason bricks for clean architecture projects. It includ
 # Table of Contents
 - [View Brick](#view-brick)
 - [Integration Test Brick](#integration-test-brick)
+- [Feature/Module Brick](#Feature/Module-Brick)
 
 # View Brick
 Mason Brick to create a new view in already existing feature or a as a new feature.
@@ -101,4 +102,41 @@ integration_test
  ┃ ┣ finders
  ┃ ┃ ┗ sample_finders.dart
  ┃ ┗ sample_test.dart
+```
+
+# Feature/Module Brick
+Mason Brick to create a template for feature/module in our MVVM flutter architecture.
+
+1. Activate v_module bricks
+- Using `mason add` command from
+```sh
+mason add v_module
+```
+
+- Add directly to `mason.yaml` from git
+```yaml
+bricks:
+  v_module:
+    git:
+      url: 'https://github.com/GameOnAnil/vanilla-stacked-bricks.git'
+      path: 'bricks/v_module'
+```
+
+## Variables for the Command Line ✨
+| Variable      | Description                                                | Type     |
+| ------------- | ---------------------------------------------------------- | -------- |
+| `module_name`  | The name of feature / module this integration test belongs to         | String   |
+
+## Generate File Structure
+```
+ ┗ 📂ui
+ ┃ ┗ 📂login
+ ┃ ┃ ┣ 📂models
+ ┃ ┃ ┃ ┗ 📜hello.md
+ ┃ ┃ ┣ 📂repository
+ ┃ ┃ ┃ ┗ 📜login_repository.dart
+ ┃ ┃ ┣ 📂services
+ ┃ ┃ ┃ ┗ 📜login_service.dart
+ ┃ ┃ ┗ 📂views
+ ┃ ┃ ┃ ┗ 📜hello.md
 ```

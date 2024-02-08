@@ -12,7 +12,8 @@ dart pub global activate mason_cli
 ```sh
 mason add v_module
 ```
-- Using `mason add` command
+
+- From github
 ```sh
 mason add v_module --git-url "https://github.com/GameOnAnil/vanilla-stacked-bricks.git" --git-path "bricks/v_module"
 ```
