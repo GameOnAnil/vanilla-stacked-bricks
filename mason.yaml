@@ -6,3 +6,6 @@ bricks:
 
   automation_test:
     path: ./bricks/automation_test
+
+  v_module:
+    path: ./bricks/v_module
