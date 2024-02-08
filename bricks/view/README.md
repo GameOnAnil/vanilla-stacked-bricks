@@ -27,6 +27,9 @@ bricks:
 ## How to use 🚀
 ### Command Line
 
+![Mason Demo][mason_demo]
+
+[mason_demo]: https://raw.githubusercontent.com/gameonanil/vanilla-stacked-bricks/main/assets/view-demo.gif
 ```
 mason make view
 ```
