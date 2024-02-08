@@ -1,6 +1,7 @@
 name: v_module
 description: A brick to generate a new feature/module structure in MVVM architecture.
 version: 0.1.0+1
+repository: https://github.com/GameOnAnil/vanilla-stacked-bricks/tree/main/bricks/v_module
 
 environment:
   mason: ">=0.1.0-dev.52 <0.1.0"
