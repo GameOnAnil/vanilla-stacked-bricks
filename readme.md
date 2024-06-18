@@ -1,6 +1,6 @@
 # VanillaStackedBricks
 
-This repository contains Mason bricks for clean architecture projects. It includes modules, views, integration tests, services, network components, and more.
+This repository contains Mason bricks to create Flutter templates using clean architecture principles. It includes modules, views, integration tests, services, network components, and more.
 
 ![Mason Demo][mason_demo]
 
